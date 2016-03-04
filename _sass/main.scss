@@ -167,13 +167,13 @@ span[data-note] {
     margin-top: -10px;
     &:before {
       content: "";
-      border-width: 5px 5px 5px 0;
+      border-width: 5px 0 5px 5px;
       border-style: solid;
       border-color: transparent #666;
       border-color: transparent rgba(0,0,0,.5);
       position: absolute;
       top: 50%;
-      left: -5px;
+      right: -5px;
       margin-top: -5px;
     }
   }
